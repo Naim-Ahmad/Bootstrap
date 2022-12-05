@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Text Font</title>
+    <title>Bootstrap 5 practice</title>
 
     <!-- bootstrap cd -->
     <link
@@ -22,13 +22,25 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
+      <!-- header section starts here  -->
       <header class="bg-primary py-3 text-white text-center mb-3">
         <h1>Study with Naim Ahmad</h1>
       </header>
+      <!-- header section ends here  -->
+
       <main>
+        <!-- Services section starts here -->
         <div class="row text-lg-center">
           <div class="col-lg-3 col-md-6">
             <i
@@ -80,47 +92,59 @@
           </div>
         </div>
 
-        <h1 class="bg-primary text-white text-center">About Me</h1>
-        <div class="about row text-center">
-          <img
-            src="./IMG_20221104_153449.jpg"
-            class="img-fluid rounded-circle col-lg-5 d-block m-sm-auto"
-            style="width: 300px; height: 300px"
-          />
-          <div class="ms-4 col-lg-7">
-            <h2>about me</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eaque
-              laudantium minus quo sequi, aut odio illo repellendus neque ab
-              dolor, rerum doloribus ipsam, labore dolorum. Consequuntur
-              corporis maiores ullam expedita et asperiores voluptates eius
-              facere quae ipsam omnis, excepturi quas quia ipsum explicabo
-              repellendus nihil! Amet reprehenderit asperiores odio dolorem
-              excepturi. Dignissimos, asperiores ducimus sint natus placeat
-              praesentium tempora fugit aspernatur cupiditate assumenda soluta
-              porro aut amet distinctio explicabo quae iure ex impedit? Porro
-              magni aut dolore! Quaerat tempora in repellendus iure quas. Fugit
-              eum repellendus provident nisi vel soluta necessitatibus sapiente
-              a odio! Necessitatibus nostrum doloribus at id.
-            </p>
-            <div
-              class="alert alert-success text-start alert-dismissible fade show"
-            >
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="alert"
-              ></button>
-              You May Hire him on
-              <a href="https://www.freelancer.com/" class="alert-link">here</a>
+        <!-- Services section ends here -->
+
+        <!-- About section Starts here -->
+
+        <div>
+          <h1 class="bg-primary text-white text-center">About Me</h1>
+          <div class="about row text-center justify-content-center">
+            <img
+              src="./IMG_20221104_153449.jpg"
+              class="img-fluid rounded-circle col-lg-5 d-block m-sm-auto"
+              style="width: 300px; height: 300px"
+            />
+            <div class="ms-4 col-lg-7">
+              <h2>about me</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                eaque laudantium minus quo sequi, aut odio illo repellendus
+                neque ab dolor, rerum doloribus ipsam, labore dolorum.
+                Consequuntur corporis maiores ullam expedita et asperiores
+                voluptates eius facere quae ipsam omnis, excepturi quas quia
+                ipsum explicabo repellendus nihil! Amet reprehenderit asperiores
+                odio dolorem excepturi. Dignissimos, asperiores ducimus sint
+                natus placeat praesentium tempora fugit aspernatur cupiditate
+                assumenda soluta porro aut amet distinctio explicabo quae iure
+                ex impedit? Porro magni aut dolore! Quaerat tempora in
+                repellendus iure quas. Fugit eum repellendus provident nisi vel
+                soluta necessitatibus sapiente a odio! Necessitatibus nostrum
+                doloribus at id.
+              </p>
+              <div
+                class="alert alert-success text-start alert-dismissible fade show"
+              >
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                ></button>
+                You May Hire him on
+                <a href="https://www.freelancer.com/" class="alert-link"
+                  >here</a
+                >
+              </div>
             </div>
           </div>
         </div>
+        <!-- About section ends here -->
+
+        <!-- Customer review section starts here -->
 
         <div class="customar-review text-center">
           <h1 class="bg-primary text-white pb-3 rounded">customar-review</h1>
           <div class="row m-auto">
-            <div class="col-lg-3 bg-info rounded p-4 m-3">
+            <div class="col-lg-3 bg-info rounded p-4">
               <i class="fas fa-3x fa-user-circle"></i>
               <blockquote class="blockquote">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -132,7 +156,7 @@
                 <cite>naim-ahmad.netlify.app</cite>
               </footer>
             </div>
-            <div class="col-lg-3 bg-info rounded p-4 m-3">
+            <div class="col-lg-3 bg-info rounded p-4">
               <i class="fas fa-3x fa-user-circle"></i>
               <blockquote class="blockquote">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -144,7 +168,7 @@
                 <cite>naim-ahmad.netlify.app</cite>
               </footer>
             </div>
-            <div class="col-lg-3 bg-info rounded p-4 m-3">
+            <div class="col-lg-3 bg-info rounded p-4">
               <i class="fas fa-3x fa-user-circle"></i>
               <blockquote class="blockquote">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -158,6 +182,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Customer review section ends here -->
       </main>
     </div>
 
