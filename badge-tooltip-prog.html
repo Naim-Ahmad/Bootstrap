@@ -34,29 +34,72 @@
     </div>
 
     <div class="mb-3 bg-light p-5">
-      <p class="muted">
-        Placeholder text to demonstrate some
-        <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip"
-          >inline links</a
+      <h1>Multiple progress bar</h1>
+      <div class="progress mb-3">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          aria-valuenow="50"
+          aria-valuemin="0"
+          style="width: 30%"
+          aria-valuemax="100"
         >
-        with tooltips. This is now just filler, no killer. Content placed here
-        just to mimic the presence of
-        <a href="#" data-bs-toggle="tooltip" data-bs-title="Another tooltip"
-          >real text</a
-        >. And all that just to give you an idea of how tooltips would look when
-        used in real-world situations. So hopefully you've now seen how
-        <a
-          href="#"
-          data-bs-toggle="tooltip"
-          data-bs-title="Another one here too"
-          >these tooltips on links</a
+          30%
+        </div>
+        <div
+          class="progress-bar w-30 bg-info"
+          role="progressbar"
+          aria-valuenow="50"
+          aria-valuemin="0"
+          style="width: 30%"
+          aria-valuemax="100"
         >
-        can work in practice, once you use them on
-        <a href="#" data-bs-toggle="tooltip" data-bs-title="The last tip!"
-          >your own</a
+          30%
+        </div>
+        <div
+          class="progress-bar w-30 bg-danger"
+          role="progressbar"
+          aria-valuenow="50"
+          aria-valuemin="0"
+          style="width: 30%"
+          aria-valuemax="100"
         >
-        site or project.
-      </p>
+          30%
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <h1>striped Progress bar</h1>
+        <div class="progress">
+          <div
+            class="progress-bar progress-bar-striped"
+            style="width: 30%"
+          ></div>
+        </div>
+        <div class="progress">
+          <div
+            class="progress-bar progress-bar-striped bg-info"
+            style="width: 70%"
+          ></div>
+        </div>
+
+        <div class="progress">
+          <div
+            class="progress-bar progress-bar-striped bg-danger"
+            style="width: 50%"
+          ></div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <h1>Animated Progress bar</h1>
+        <div class="progress">
+          <div
+            class="progress-bar progress-bar-animated progress-bar-striped"
+            style="width: 70%"
+          ></div>
+        </div>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
